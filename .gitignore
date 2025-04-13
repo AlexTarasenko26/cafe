@@ -47,4 +47,8 @@ wp-config.php
 # uncomment the next line
 #/wp-content/themes
 
+# IDEA project files
 .idea/
+
+# Vendor directory
+vendor

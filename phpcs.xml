@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ruleset name="CafeProject">
+    <description>Cafe WordPress Project Coding Standards</description>
+
+    <rule ref="WordPress" />
+
+    <file>wp-data/wp-content/plugins/cafe</file>
+    <file>wp-data/wp-content/themes/cafe</file>
+
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+</ruleset>
