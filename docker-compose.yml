@@ -17,7 +17,9 @@ services:
       - 33060
   
   wordpress:
-    image: wordpress:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: cafe_wordpress
     depends_on:
       - db
